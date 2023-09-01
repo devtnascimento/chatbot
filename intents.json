@@ -1,0 +1,73 @@
+{"intents":[
+  { 
+    "tag": "saudacao",
+    "patterns":["Ola","Opa","Oi", "tudo bem"],
+    "responses": ["Oi","Olá"]
+  },
+  { 
+    "tag": "despedida",
+    "patterns":["valeu","tchau","Obrigado","tks"],
+    "responses": ["Até breve","Falou"]
+  },
+  { 
+    "tag": "definicao",
+    "patterns":[
+      "o que e um projeto pipe",
+      "defina o PIPE",
+      "explique o pipe",
+      "como funciona o PIPE-FAPESP?",
+      "a fase 1 e obrigatoria?",
+      "o que e o Programa Pesquisa Inovativa em Pequenas Empresas"
+    ],
+    "responses": [
+      "O PIPE-FAPESP apoia a execução de pesquisa científica e/ou tecnológica em micro, pequenas e médias empresas no Estado de São Paulo.",
+      "O Programa Pesquisa Inovativa em Pequenas Empresas da FAPESP destina-se a apoiar a execução de pesquisa científica e tecnológica em pequenas empresas no Estado de São Paulo. Seus objetivos são apoiar a pesquisa em ciência e tecnologia como instrumento para promover a inovação tecnológica e o desenvolvimento empresarial, aumentar a competitividade das pequenas empresas, possibilitar que as empresas se associem a pesquisadores do ambiente acadêmico em projetos de pesquisa visando à inovação tecnológica e contribuir para a formação e o desenvolvimento de núcleos de desenvolvimento tecnológico nas empresas e para o emprego de pesquisadores no mercado de trabalho empresarial criando uma cultura permanente de inovação."
+    ]
+  },
+  { 
+    "tag": "objetivos",
+    "patterns":["quais sao os objetivos do pipe-fapesp?","liste os objetivos do pipe","objetivos?"],
+    "responses": [
+      "1. Apoiar a pesquisa em ciência e tecnologia como instrumento para promover a inovação tecnológica, promover o desenvolvimento empresarial e aumentar a competitividade das pequenas empresas.\n2. Incrementar a contribuição da pesquisa para o desenvolvimento econômico e social.\n3. Induzir o aumento do investimento privado em pesquisa tecnológica.\n4. Possibilitar que as empresas se associem a pesquisadores do ambiente acadêmico em projetos de pesquisa visando à inovação tecnológica.\n5. Contribuir para a formação e o desenvolvimento de núcleos de desenvolvimento tecnológico nas empresas e para o emprego de pesquisadores no mercado."
+    ]
+  },
+  { 
+    "tag": "propriedade intelectual",
+    "patterns":[
+      "como funciona a politica de propriedade intelectual do pipe-fapesp?",
+      "politica de propriedade intelectual","explique a politica da fapesp", "enquanto a propriedade intelectual?", "enquanto aos direitos autorais?", "politica de patente"],
+    "responses": [
+      "As empresas apoiadas pelo Programa Pesquisa Inovativa em Pequenas Empresas (PIPE) detêm exclusivamente os direitos legais de propriedade intelectual dos resultados das pesquisas financiadas, sem a exigência de compartilhamento com a Fundação.\n\nA empresa, portanto, poderá explorar, licenciar e proteger os resultados do projeto apoiado pela Fundação da forma que achar mais conveniente, seguindo sua estratégia de negócio, devendo manter a FAPESP informada em relação à propriedade intelectual para fins de acompanhamento."
+    ]
+  },
+  { 
+    "tag": "fases",
+    "patterns":[
+      "ha diferentes etapas no programa?",
+      "quais sao as etapas do pipe?", "como funcionam as fases do programa?", "quantas fases e quais sao elas?"],
+    "responses": [
+      "a) Fase 1: é destinada à verificação da viabilidade técnico-científica da proposta, (duração de até 9 meses e orçamento de até R$ 300.000, mais Reserva Técnica e Benefícios Complementares);\n\nb) Fase 2: destina-se à execução da pesquisa propriamente dita (duração de até 24 meses e orçamento de até R$ 1.500.000, mais Reserva Técnica e Benefícios Complementares);\n\nc) PIPE Invest: Aceleração da chegada ao mercado de Projetos da Fase 2, quando houver terceira parte interessada (duração de até 24 meses e orçamento de até R$ 1.500.000); e\n\nd) Fase 3: desenvolvimento comercial e industrial dos produtos, processos, sistemas e/ou serviços inovadores obtidos a partir de pesquisas anteriores realizadas pela pequena empresa sem o apoio da FAPESP ou a partir de pesquisa apoiada no âmbito do PIPE."
+    ]
+  },
+  { 
+    "tag": "primeira fase",
+    "patterns":[
+      "a fase 1 e obrigatoria?", "posso pular a primeira etapa?", "consigo pular a primeira faze?",
+      "posso pular direto para fase 2?", "preciso da fase 1?", "e possivel pular a fase 1?", "posso comecar pela fase 2"],
+    "responses": [
+      "A empresa pode submeter uma proposta à Fase 2 Direta. Nesse caso é fundamental demonstrar que a viabilidade técnica da pesquisa já foi demonstrada; para tanto é fundamental apresentar um ótimo documento de “Justificativa para a Fase 2 Direta”."
+    ]
+  },
+  { 
+    "tag": "lugar",
+    "patterns":[
+      "onde o projeto deve ser realizado?",
+      "o projeto de pesquisa deve ser feito na empresa?",
+      "Qual lugar o projeto precisa ser realizado"
+    ],
+    "responses": [
+        "O PIPE destina-se a apoiar a execução de pesquisa EM pequenas empresas sediadas no Estado de São Paulo, conforme explicitado nas normas do programa."
+    ]
+  }
+]
+}
